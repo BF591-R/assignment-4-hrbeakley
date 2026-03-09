@@ -123,7 +123,7 @@ captions blank.
 caption_4 <- 'Bar graph depicting the proportion of variance explained by each principal component 
 and connected dot plot depicting the cumulative variance'
 caption_5 <- 'Scatterplot depicting PC1 vs. PC2 for each sample, colored by immune subtype classification'
-caption_8 <- 'Heatmap of normalized intensity values for differentially expressed probes. Rows represent probes, columns represent samples, and color intensity reflects relative probe expression level'
+caption_8 <- 'Heatmap of normalized intensity values for differentially expressed probes across samples. Rows represent probes and columns represent samples. Both rows and columns are hierarchically clustered based on expression similarity, and colors reflect relative expression magnitude'
 ```
 
 ## 4. Plot the variance explained and cumulative variance for the PCs
